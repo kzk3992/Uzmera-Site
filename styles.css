@@ -309,3 +309,18 @@ h1, h2, h3, p { line-break: strict; }
   *, *::before, *::after { animation: none !important; transition: none !important; }
   [data-reveal] { opacity: 1 !important; transform: none !important; }
 }
+
+/* Privacy policy */
+.legal-topbar { position: relative; }
+.legal-main { max-width: 840px; padding-block: 84px 104px; }
+.legal-main h1 { margin-top: 20px; color: var(--paper); font: 400 clamp(30px, 5vw, 46px)/1.4 var(--pixel); }
+.legal-lead { margin-top: 24px; color: var(--muted); line-height: 2; }
+.legal-date { margin-top: 18px; color: var(--muted); font-size: 13px; }
+.legal-content { margin-top: 52px; }
+.legal-content section { padding-block: 26px; border-top: 1px solid var(--line); }
+.legal-content h2 { margin-bottom: 14px; color: var(--gold); font-size: 18px; line-height: 1.6; }
+.legal-content p { color: var(--cream); font-size: 15px; line-height: 2; overflow-wrap: anywhere; }
+.legal-content p + p { margin-top: 14px; }
+.legal-content a, .legal-back, .footer-bottom a { color: var(--rose-light); text-underline-offset: 4px; }
+.legal-back { display: inline-block; margin-top: 28px; }
+@media (max-width: 600px) { .legal-main { padding-block: 56px 72px; } .legal-content { margin-top: 36px; } }
